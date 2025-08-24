@@ -1,13 +1,12 @@
 # PicoLLM
 
-A minimal Transformer language model with KV-Cache optimization for efficient text generation.
+A minimal Transformer language model with KV-Cache optimization and RoPE for efficient text generation.
 
 ## 🚀 Features
 
 - **KV-Cache Implementation**: Dramatic inference speedup (up to 31.62x for long sequences)
 - **Rotary Position Embeddings**: Modern positional encoding
 - **Multiple Sampling**: Greedy, nucleus (top-p), and random generation
-- **Flexible Training**: Support for TinyStories + custom datasets
 
 ## 📊 Performance
 
