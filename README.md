@@ -5,7 +5,7 @@ A minimal Transformer language model with KV-Cache optimization and RoPE for eff
 ## 🚀 Features
 
 - **KV-Cache Implementation**: Dramatic inference speedup (up to 31.62x for long sequences)
-- **Rotary Position Embeddings**: Modern positional encoding
+- **Rotary Position Embeddings**: Rotational positional encoding that preserves relative distances
 - **Multiple Sampling**: Greedy, nucleus (top-p), and random generation
 
 ## 📊 Performance
